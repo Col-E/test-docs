@@ -1,5 +1,3 @@
-# Summary
-
 [Home](README.md)
 
 # User Documentation
