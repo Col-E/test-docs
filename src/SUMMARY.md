@@ -1,0 +1,37 @@
+# Summary
+
+[Home](README.md)
+
+# User Documentation
+
+- [Content pending](user/README.md)
+
+# Developer Documentation
+
+- [Architecture](dev/arch/README.md)
+	- [Modules](dev/arch/modules.md)
+	- [Important libraries](dev/arch/important-libraries.md)
+	- [CDI](dev/arch/cdi.md)
+- [Workspace model](dev/workspace-model/README.md)
+- [Services](dev/services/README.md)
+	- [Application scoped services](dev/services/application-scoped-services/README.md)
+		- [AttachManager](dev/services/application-scoped-services/attachmanager.md)
+		- [CommentManager](dev/services/application-scoped-services/commentmanager.md)
+		- [ConfigManager](dev/services/application-scoped-services/configmanager.md)
+		- [DecompileManager](dev/services/application-scoped-services/decompilemanager.md)
+		- [GsonProvider](dev/services/application-scoped-services/gsonprovider.md)
+		- [InfoImporter](dev/services/application-scoped-services/infoimporter.md)
+		- [JavacCompiler](dev/services/application-scoped-services/javaccompiler.md)
+		- [ResourceImporter](dev/services/application-scoped-services/resourceimporter.md)
+		- [WorkspaceManager](dev/services/application-scoped-services/workspacemanager.md)
+	- [Workspace scoped services](dev/services/workspace-scoped-services/README.md)
+		- [InheritanceGraph](dev/services/workspace-scoped-services/inheritancegraph.md)
+- [Plugins & scripts](dev/plugins-and-scripts/README.md)
+	- [Plugins](dev/plugins-and-scripts/plugins.md)
+	- [Scripts](dev/plugins-and-scripts/scripts.md)
+- [Utilities](dev/util/README.md)
+	- [ClassDefiner](dev/util/classdefiner.md)
+- [Misc](dev/util/README.md)
+	- [How to improve test cases](dev/misc/how-to-improve-test-cases.md)
+	- [Configuring annotations in IntelliJ](dev/misc/configuring-annotations-in-intellij.md)
+	- [Faster builds in IntelliJ](dev/misc/faster-builds-in-intellij.md)
