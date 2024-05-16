@@ -1,3 +1,6 @@
+# From: https://users.rust-lang.org/t/experience-about-deploying-mdbook-on-github-using-github-action/81408
+#  - Remember to set the GitHub pages 'source' to 'GitHub Actions' since by default its based on the repo content
+
 name: Mdbook build
 
 on:

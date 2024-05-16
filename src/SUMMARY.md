@@ -2,10 +2,12 @@
 
 # User Documentation
 
-- [Content pending](user/README.md)
+- [Summary](user/README.md)
 
 # Developer Documentation
 
+- [Summary](dev/README.md)
+- [Getting Started](dev/getting-started.md)
 - [Architecture](dev/arch/README.md)
 	- [Modules](dev/arch/modules.md)
 	- [Important libraries](dev/arch/important-libraries.md)

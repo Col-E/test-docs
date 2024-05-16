@@ -1,4 +1,5 @@
-# Recaf Documentation
-
-- [User Docs](user/README.md)
-- [Developer Docs](dev/README.md)
+<script>
+// We want to immediately break into a hand-crafted home page, not bound to the
+// style of the rest of the MDBook
+window.location.replace("home.html")
+</script>
