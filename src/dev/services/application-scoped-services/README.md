@@ -39,7 +39,7 @@ The `ui` module defines a number of new service types dedicated to UI behavior.
 * FileTypeAssociationService
 * NavigationManager
 * PathExportingManager
-* PathLoadingManager
+* [PathLoadingManager](pathloadingmanager.md)
 * [ResourceSummaryService](resourcesummaryservice.md)
 * WindowFactory
 * WindowManager

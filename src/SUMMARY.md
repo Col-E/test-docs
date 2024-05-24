@@ -31,7 +31,7 @@
 	- [Scripts](dev/plugins-and-scripts/scripts.md)
 - [Utilities](dev/util/README.md)
 	- [ClassDefiner](dev/util/classdefiner.md)
-- [Misc](dev/util/README.md)
+- [Misc](dev/misc/README.md)
 	- [How to improve test cases](dev/misc/how-to-improve-test-cases.md)
 	- [Configuring annotations in IntelliJ](dev/misc/configuring-annotations-in-intellij.md)
 	- [Faster builds in IntelliJ](dev/misc/faster-builds-in-intellij.md)
