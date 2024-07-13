@@ -1,0 +1,97 @@
+# Utilities
+
+There are quite a few utility classes in Recaf that all serve as independent units or holders of various static utility methods.
+
+## Core utils
+
+- Android
+  - AndroidRes
+  - AndroidXmlUtil
+  - DexIOUtil
+- IO
+  - ByteSource
+    - ByteArraySource
+    - ByteBufferSource
+    - LocalFileHeaderSource
+    - MemorySegmentDataSource
+    - PathByteSource
+  - ByteSourceConsumer
+  - ByteSourceElement
+  - ByteSources
+- Threading
+  - CountDown
+  - ExecutorServiceDelegate
+  - PhasingExecutorService
+  - ScheduledExecutorServiceDelegate
+  - ThreadPoolFactory
+  - ThreadUtil
+- ASM Visitors
+  - AnnotationArrayVisitor
+  - BogusNameRemovingVisitor
+  - ClassAnnotationInsertingVisitor
+  - ClassAnnotationRemovingVisitor
+  - ClassHollowingVisitor
+  - DuplicateAnnotationRemovingVisitor
+  - FieldAnnotationInsertingVisitor
+  - FieldAnnotationRemovingVisitor
+  - FieldInsertingVisitor
+  - FieldReplacingVisitor
+  - IllegalAnnotationRemovingVisitor
+  - IllegalSignatureRemovingVisitor
+  - IndexCountingMethodVisitor
+  - LongAnnotationRemovingVisitor
+  - MemberCopyingVisitor
+  - MemberFilteringVisitor
+  - MemberRemovingVisitor
+  - MemberStubAddingVisitor
+  - MethodAnnotationInsertingVisitor
+  - MethodAnnotationRemovingVisitor
+  - MethodInsertingVisitor
+  - MethodNoopingVisitor
+  - MethodReplacingVisitor
+  - SignatureRemovingVisitor
+  - SyntheticRemovingVisitor
+  - VariableRemovingClassVisitor
+  - VariableRemovingMethodVisitor
+- Misc *(no dedicated subpackage)*
+  - AccessFlag
+  - AccessPatcher
+  - BlwUtil
+  - ByteHeaderUtil
+  - CancelSignal
+  - ClassDefiner
+  - ClassLoaderInternals
+  - ClasspathUtil
+  - CollectionUtil
+  - DesktopUtil
+  - DevDetection
+  - EscapeUtil
+  - Handles
+  - InternalPath
+  - IOUtil
+  - JavaVersion
+  - JigsawUtil
+  - Keywords
+  - LookupUtil
+  - MemoizedFunctions
+  - ModulesIOUtil
+  - MultiMap
+  - MultiMapBuilder
+  - NumberUtil
+  - PlatformType
+  - ReflectUtil
+  - RegexUtil
+  - ResourceUtil
+  - SelfReferenceUtil
+  - ShortcutUtil
+  - Streams
+  - StringDiff
+  - StringUtil
+  - TestEnvironment
+  - Types
+  - UnsafeIO
+  - UnsafeUtil
+  - ZipCreationUtils
+
+## UI utils
+

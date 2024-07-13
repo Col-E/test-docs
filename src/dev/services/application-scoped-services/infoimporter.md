@@ -10,10 +10,13 @@ Reading a class file:
 // Wrap input in ByteSource.
 byte[] classBytes = Files.readAllBytes(Paths.get("HelloWorld.class"));
 ByteSource source = ByteSources.wrap(classBytes);
+
 // Parse into an info object.
 Info read = importer.readInfo("HelloWorld", source);
+
 // Cast to 'JvmClassInfo' with 'asX' methods
 JvmClassInfo classInfo = read.asClass().asJvmClass();
+
 // Or use instanceof
 if (read instanceof JvmClassInfo classInfo) {
 	// ...

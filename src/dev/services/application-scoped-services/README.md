@@ -13,16 +13,17 @@ These are the services defined in the `core` module.
 * [GsonProvider](gsonprovider.md)
 * [InfoImporter](infoimporter.md)
 * [JavacCompiler](javaccompiler.md)
-* MappingFormatManager
-* MappingGenerator
-* MappingListeners
+* [MappingFormatManager](mappingformatmanager.md)
+* [MappingGenerator](mappinggenerator.md)
+* [MappingListeners](mappinglisteners.md)
 * NameGeneratorProviders
-* PhantomGenerator
+* [PhantomGenerator](phantomgenerator.md)
 * PluginManager
 * [ResourceImporter](resourceimporter.md)
-* ScriptEngine
-* ScriptManager
-* SearchService
+* [ScriptEngine](scriptengine.md)
+* [ScriptManager](scriptmanager.md)
+* [SearchService](searchservice.md)
+* [SnippetManager](snippetmanager.md)
 * [WorkspaceManager](workspacemanager.md)
 
 ## UI

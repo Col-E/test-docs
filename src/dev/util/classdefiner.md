@@ -1,6 +1,6 @@
 # ClassDefiner
 
-The `ClassDefiner` is a utility which takes in one or more classes as a `Map<String, byte[]>` and defines them at runtime. 
+The `ClassDefiner` is a utility extending `ClassLoader` which takes in one or more classes as a `Map<String, byte[]>` and defines them at runtime. 
 
 - Keys are the class name format you'd use for `Class.forName(String)` and thus would look like `java.lang.String`.
 - Values are the raw bytes of the class file.
@@ -23,4 +23,7 @@ ClassDefiner cd = new ClassDefiner(sourceName, bytes);
 
 // Definer with a map of entries
 ClassDefiner cd = new ClassDefiner(Map.of(sourceName, bytes));
+
+// Loading the class
+Class<?> cls = definer.findClass(sourceName);
 ```
